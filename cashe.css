@@ -1,0 +1,155 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: yellow;
+}
+
+body {
+    margin: 0 auto;
+    background: url(gif15.gif);
+    background-attachment: fixed, fixed;
+}
+.head{
+    display: flex;
+    height: 60px;
+    flex-direction: row;
+    background-color: #050144;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.logo{
+  margin-top: 10px;
+  margin-left: 12px;
+}
+.logo_text{
+  margin-left: 10px;
+}
+.mirage{
+    margin-top: 0px;
+    margin: 0 auto;
+    margin-left: 420px;
+}
+.mirage2{
+    margin-top: 15px;
+}
+.place{
+    margin-top: 0px;
+    display: flex;
+    flex-direction:row;
+    margin: 0 auto;
+}
+.a{
+    margin-left: 250px;
+}
+.a2{
+    margin-top: 15px;
+    font-family: ProximaNova,Roboto,Arial,Helvetica,sans-serif;
+}
+.b{
+    margin-left: 50px;
+}
+.b2{
+    margin-top: 15px;
+    font-family: ProximaNova,Roboto,Arial,Helvetica,sans-serif;
+}
+.mid{
+    margin-left: 50px;
+}
+.mid2{
+    margin-top: 15px;
+    font-family: ProximaNova,Roboto,Arial,Helvetica,sans-serif;
+}
+.main{
+    margin: 0 auto;
+    display: block;
+    width: 1000px;
+    background: #050144d3;
+    align-content: center;
+    margin-top: 90px;
+    height: 6660px;
+    border-radius: 20px;
+    border: 3px solid yellow;
+}
+.conten{
+    margin-left: 20px;
+    width: 960px;
+    justify-content: space-between;
+}
+p{
+    font-size: 20px; 
+    font-family: 'Times New Roman', Times, serif;
+    color:white
+}
+#a{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: white;
+}
+li{
+    color: white;
+    font-size: 25px;
+    font-family: inherit;
+}
+#b{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: white;
+}
+#mid{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: white;
+}
+.rating-area {
+	overflow: hidden;
+	width: 265px;
+	margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 730px;
+    
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
